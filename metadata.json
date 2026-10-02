@@ -1,0 +1,6 @@
+{
+  "name": "FUNNECT",
+  "description": "Connect. Build. Have Fun. — Modular STEM learning platform combining FUNNECT Core, reusable connectors, popsicle sticks, bamboo, modules, and 3D web studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

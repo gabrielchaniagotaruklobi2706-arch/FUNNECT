@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 180" width="100%" height="100%" fill="none">
+  <!-- Confetti accents -->
+  <polygon points="48,38 54,48 42,46" fill="#1D64F2" />
+  <circle cx="168" cy="40" r="4.5" fill="#1D64F2" />
+  <circle cx="162" cy="18" r="5" fill="#F59E0B" />
+  <polygon points="36,68 44,70 40,78" fill="#F59E0B" />
+  <circle cx="178" cy="88" r="3.5" fill="#F59E0B" />
+
+  <!-- MASCOT: Hexagonal Interlocking Connector Ring -->
+  <g transform="translate(10, 0)">
+    <!-- Face in center -->
+    <ellipse cx="106" cy="98" rx="4.2" ry="5.5" fill="#1E293B" />
+    <ellipse cx="126" cy="98" rx="4.2" ry="5.5" fill="#1E293B" />
+    <path d="M 111 106 Q 116 113 121 106" stroke="#1E293B" stroke-width="2.8" stroke-linecap="round" fill="none" />
+
+    <!-- 6 Interlocking Connector Links -->
+    <!-- Top-Left Blue Link -->
+    <path d="M 116 38 L 74 62 A 13 13 0 0 0 68 83 L 102 63 A 13 13 0 0 0 116 38 Z" fill="#1D64F2" />
+    <!-- Rounded capsules for exact connector look -->
+    <!-- Link 1: Top Left (Blue) -->
+    <g>
+      <line x1="116" y1="44" x2="72" y2="70" stroke="#1D64F2" stroke-width="22" stroke-linecap="round" />
+      <circle cx="116" cy="44" r="5" fill="#FFFFFF" />
+      <circle cx="72" cy="70" r="5" fill="#FFFFFF" />
+    </g>
+
+    <!-- Link 2: Left Vertical (Blue) -->
+    <g>
+      <line x1="72" y1="70" x2="72" y2="126" stroke="#0D52ED" stroke-width="22" stroke-linecap="round" />
+      <circle cx="72" cy="70" r="5" fill="#FFFFFF" />
+      <circle cx="72" cy="126" r="5" fill="#FFFFFF" />
+    </g>
+
+    <!-- Link 3: Bottom Left (Blue) -->
+    <g>
+      <line x1="72" y1="126" x2="116" y2="152" stroke="#1D64F2" stroke-width="22" stroke-linecap="round" />
+      <circle cx="72" cy="126" r="5" fill="#FFFFFF" />
+      <circle cx="116" cy="152" r="5" fill="#FFFFFF" />
+    </g>
+
+    <!-- Link 4: Top Right (Yellow) -->
+    <g>
+      <line x1="116" y1="44" x2="160" y2="70" stroke="#F59E0B" stroke-width="22" stroke-linecap="round" />
+      <circle cx="116" cy="44" r="5" fill="#FFFFFF" />
+      <circle cx="160" cy="70" r="5" fill="#FFFFFF" />
+    </g>
+
+    <!-- Link 5: Right Vertical (Yellow) -->
+    <g>
+      <line x1="160" y1="70" x2="160" y2="126" stroke="#D97706" stroke-width="22" stroke-linecap="round" />
+      <circle cx="160" cy="70" r="5" fill="#FFFFFF" />
+      <circle cx="160" cy="126" r="5" fill="#FFFFFF" />
+    </g>
+
+    <!-- Link 6: Bottom Right (Yellow) -->
+    <g>
+      <line x1="160" y1="126" x2="116" y2="152" stroke="#FBBF24" stroke-width="22" stroke-linecap="round" />
+      <circle cx="160" cy="126" r="5" fill="#FFFFFF" />
+      <circle cx="116" cy="152" r="5" fill="#FFFFFF" />
+    </g>
+  </g>
+
+  <!-- WORDMARK & TAGLINE -->
+  <g transform="translate(195, 25)">
+    <!-- FUN (Yellow) -->
+    <!-- F -->
+    <path d="M 8 36 L 8 98 M 8 42 L 34 42 M 8 64 L 28 64" 
+          stroke="#F59E0B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- U -->
+    <path d="M 46 36 L 46 80 C 46 95 68 95 68 80 L 68 36" 
+          stroke="#F59E0B" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- N (with connector link holes) -->
+    <g>
+      <path d="M 82 98 L 82 36 L 110 98 L 110 36" 
+            stroke="#F59E0B" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <circle cx="82" cy="48" r="3.2" fill="#FFFFFF" stroke="#D97706" stroke-width="1" />
+      <circle cx="82" cy="86" r="3.2" fill="#FFFFFF" stroke="#D97706" stroke-width="1" />
+      <circle cx="110" cy="48" r="3.2" fill="#FFFFFF" stroke="#D97706" stroke-width="1" />
+      <circle cx="110" cy="86" r="3.2" fill="#FFFFFF" stroke="#D97706" stroke-width="1" />
+    </g>
+
+    <!-- NECT (Blue) -->
+    <!-- Second N (Interlocking with connector link holes) -->
+    <g transform="translate(42, 0)">
+      <path d="M 82 98 L 82 36 L 110 98 L 110 36" 
+            stroke="#1D64F2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <circle cx="82" cy="48" r="3.2" fill="#FFFFFF" stroke="#0D52ED" stroke-width="1" />
+      <circle cx="82" cy="86" r="3.2" fill="#FFFFFF" stroke="#0D52ED" stroke-width="1" />
+      <circle cx="110" cy="48" r="3.2" fill="#FFFFFF" stroke="#0D52ED" stroke-width="1" />
+      <circle cx="110" cy="86" r="3.2" fill="#FFFFFF" stroke="#0D52ED" stroke-width="1" />
+    </g>
+
+    <!-- E -->
+    <g transform="translate(166, 0)">
+      <path d="M 16 36 L 16 98 M 16 42 L 40 42 M 16 66 L 36 66 M 16 92 L 40 92" 
+            stroke="#1D64F2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- C -->
+    <g transform="translate(220, 0)">
+      <path d="M 40 44 C 18 36 4 52 4 67 C 4 82 18 98 40 90" 
+            stroke="#1D64F2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    </g>
+
+    <!-- T -->
+    <g transform="translate(270, 0)">
+      <path d="M 6 42 L 38 42 M 22 42 L 22 98" 
+            stroke="#1D64F2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- Tagline: Connect. Build. Have Fun. -->
+    <text x="56" y="128" 
+          fill="#1D64F2" 
+          font-family="system-ui, -apple-system, sans-serif" 
+          font-size="16.5" 
+          font-weight="800" 
+          letter-spacing="0.5px">
+      Connect. Build. Have Fun.
+    </text>
+  </g>
+</svg>
